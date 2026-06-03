@@ -152,6 +152,8 @@ services.blueman.enable = true;
     vlc
     udisks
     tigervnc
+    cava
+    google-chrome
   ];
   #HYPRLAND
 #services.greetd = {
