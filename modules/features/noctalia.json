@@ -644,7 +644,7 @@
       "notifyUpdates": true
     },
     "idle": {
-      "enabled": false,
+      "enabled": true,
       "screenOffTimeout": 600,
       "lockTimeout": 660,
       "suspendTimeout": 1800,
@@ -672,24 +672,24 @@
     "openedPanel": "",
     "lockScreenActive": false,
     "wallpapers": {
-      "HDMI-A-1": "/home/vadim/Downloads/go2(1).jpg"
+      "eDP-1": "/home/vadim/Downloads/go2(1).jpg"
     },
     "desktopWidgetsEditMode": false,
     "display": {
       "eDP-1": {
-        "connected": true,
-        "height": 1080,
         "name": "eDP-1",
-        "physical_height": 190,
-        "physical_width": 340,
-        "refresh_rate": 60008,
+        "connected": true,
         "scale": 1,
-        "transform": "Normal",
-        "vrr_enabled": false,
-        "vrr_supported": false,
         "width": 1920,
+        "height": 1080,
         "x": 0,
-        "y": 0
+        "y": 0,
+        "physical_width": 340,
+        "physical_height": 190,
+        "refresh_rate": 60008,
+        "vrr_supported": false,
+        "vrr_enabled": false,
+        "transform": "Normal"
       }
     },
     "notificationsState": {
